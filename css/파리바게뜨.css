@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 * {
     margin: 0;
@@ -8,6 +8,421 @@
 li {
     list-style: none;
 }
+
 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    line-height: 1;
+    color: #333;
+}
+
+.header {
+    width: 1920px;
+    height: 90px;
+    background-color: #023586;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 28;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+}
+
+.header .item {
+
+    color: #fff;
+    font-size: 14px;
+
+
+}
+
+.header .item .wrap-1 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 280px;
+    width: 652.5;
+    line-height: 90px;
+
+
+}
+
+.header .item .wrap-1 li {
+    margin: 0px 12px;
+
+}
+
+.header .item .wrap-1 li:nth-child(1) {
+    color: #feda24;
+}
+
+.header .item .wrap-2 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 280px;
+    width: 652.5;
+    line-height: 90px;
+}
+
+.header .item .wrap-2 li {
+    margin: 0px 12px;
+}
+
+.section-01 {
+    width: 1920px;
+    height: 800px;
+
+}
+
+.section-01 .item img {
+    width: 100%;
+    height: auto;
+}
+
+.section-02 {
+    width: 100%;
+    height: 790px;
+
+}
+
+.section-02 .wrap {
+    margin: 150px;
+    width: 1440px;
+    height: 490px;
+
+
+}
+
+.section-02 .wrap h1 {
+    font-size: 48px;
+
+}
+
+.section-02 .wrap .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-02 .wrap .item {
+    width: 100%;
+    height: 420px;
+
+
+}
+
+.section-02 .wrap .item img {
+    width: 338px;
+    height: 338px;
+    margin: 38px 20px 20px 0;
+    object-fit: cover;
+}
+
+.section-02 .wrap .item h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section-03 {
+    width: 100%;
+    height: 790px;
+
+}
+
+.section-03 .wrap {
+    margin: 150px;
+    width: 1440px;
+    height: 490px;
+
+
+}
+
+.section-03 .wrap h1 {
+    font-size: 48px;
+
+}
+
+.section-03 .wrap .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-03 .wrap .item {
+    width: 100%;
+    height: 420px;
+
+
+}
+
+.section-03 .wrap .item img {
+    width: 338px;
+    height: 370px;
+    margin: 38px 20px 20px 0;
+    object-fit: cover;
+}
+
+.section-03 .wrap .item h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section-03 .wrap .item p {
+    margin-bottom: 10px;
+}
+
+.section-04 {
+    width: 100%;
+    height: 1080px;
+
+}
+
+.section-04 .wrap {
+    margin: 150px;
+    width: 1440px;
+    height: 490px;
+
+
+}
+
+.section-04 .wrap h1 {
+    font-size: 48px;
+
+}
+
+.section-04 .wrap .text {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.section-04 .wrap .item {
+    width: 665px;
+    height: 338px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.section-04 .wrap .item .item-1 {
+    margin-top: 50px;
+}
+
+
+.section-04 .wrap .item img {
+    width: 338px;
+    height: 370px;
+    margin: 38px 20px 20px 0;
+    object-fit: cover;
+}
+
+.section-04 .wrap .item h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.section-04 .wrap .item p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.section-04 .wrap .text .item .item-1 strong {
+    font-size: 14px;
+}
+
+.section-04 .wrap .text .item .item-1 h1 {
+    margin-top: 30px;
+    font-size: 24px;
+
+}
+
+.section-04 .wrap .text .item .item-1 p1 {
+    font-size: 10px;
+}
+
+.section-05 {
+    width: 100%;
+    height: 985px;
+
+}
+
+.section-05 .banner {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #333;
+    line-height: 70px;
+
+
+
+
+}
+
+.section-05 .banner ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.section-05 .wrap {
+    width: 1440px;
+    height: 600px;
+    margin: 160px 0 0 240px; 
+    
+   
+}
+.section-05 .wrap .text {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section-05 .wrap .text .item {
+    width: 460px;
+    height: 540px;
+    position: relative;
+}
+.section-05 .wrap h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.section-05 .wrap .item img {
+    width: 460px;
+    height: 540px;
+    
+    object-fit: cover;
+    
+}
+.section-05 .wrap .item .list {
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 50px 30px;
+}
+.section-06 {
+    width: 100%;
+    height: 985px;
+}
+.section-06 .insta {
+    width: 100%;
+    height: 260px;
+    
+    
+}
+
+
+.section-06 .insta  h2 {
+    width: 100%;
+    font-size: 24px;
+    color: #111;
+    text-align: center;
+    margin-top: 80px;
+    
+    
+    
+    
+    
+}
+.section-06 .insta  p {
+    font-size: 14px;
+    margin-top: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section-06 .img_box {
+    width: 1440px;
+    height: 460px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-06 .img_box .item {
+    width: 215px;
+    height: 215px;
+}
+
+
+.section-06 .more {
+    width: 120PX;
+    height: 40PX;
+    background-color: #023586;
+    margin: 0 auto;
+}
+.section-06 .more strong {
+    font-size: 14px;
+    margin-left: 15px;
+    color: #fff;
+    
+    
+    line-height: 40px;
+}
+
+.section-07 {
+    width: 100%;
+    height: 185px;
+    margin: 0;
+    
+}
+.section-07 .service {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.section-07 .service .service-item {
+    width: 633px;
+    height: 100%;
+    padding: 60px;
+    
+}
+.section-07 .service .service-item p {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.section-07 .service .service-item h2 {
+    font-size: 18px;
+}
+
+.section-08 {
+    width: 100%;
+    height: 520px;
+    background-color: #454a56;
+    margin-top: 250px;
+
+}
+.section-08 .last {
+    width: 1420px;
+    height: 488px;
+    
+    padding: 70px 0;
+    display: flex;
+    margin: 0 216.5px;
+}
+.section-08 .last .item {
+    width: 355px;
+    height: 288px;
+    margin: 0 0 20px;
+    padding: 0 20px 0 0;
+    color: #fff;
+}
+.section-08 .last .item h1 {
+    margin-bottom: 20px;
+}
+.section-08 .last .item li {
+    line-height: 2;
+}
+
+
+
+.section-08 .last .item ul img {
+    width: 51.5px;
+    height: 34px;
     
 }

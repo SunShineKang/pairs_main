@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Tangerine&display=swap');
+
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'skybori';
+    src: url('font/하늘보리/aa54108794207d7ce5118632c27bca8c.eot');
+    src: url('font/하늘보리/aa54108794207d7ce5118632c27bca8c.eot?#iefix') format('embedded-opentype'),
+        url('font/하늘보리/aa54108794207d7ce5118632c27bca8c.woff2') format('woff2'),
+        url('font/하늘보리/aa54108794207d7ce5118632c27bca8c.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Super Festival';
+    src: url('font/디나/SuperFestival.eot');
+    src: url('font/디나/SuperFestival.eot?#iefix') format('embedded-opentype'),
+        url('font/디나/SuperFestival.woff2') format('woff2'),
+        url('font/디나/SuperFestival.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-9';
+    src: url('font/프리텐다드/Pretendard-Black.eot');
+    src: url('font/프리텐다드/Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드/Pretendard-Black.woff2') format('woff2'),
+        url('font/프리텐다드/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-8';
+    src: url('font/프리텐다드/Pretendard-ExtraBold.eot');
+    src: url('font/프리텐다드/Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드/Pretendard-ExtraBold.woff2') format('woff2'),
+        url('font/프리텐다드/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-7';
+    src: url('font/프리텐다드/Pretendard-Bold.eot');
+    src: url('font/프리텐다드/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드/Pretendard-Bold.woff2') format('woff2'),
+        url('font/프리텐다드/Pretendard-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-2';
+    src: url('font/프리텐다드/Pretendard-ExtraLight.eot');
+    src: url('font/프리텐다드/Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드/Pretendard-ExtraLight.woff2') format('woff2'),
+        url('font/프리텐다드/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-5';
+    src: url('font/프리텐다드/Pretendard-Medium.eot');
+    src: url('font/프리텐다드/Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드/Pretendard-Medium.woff2') format('woff2'),
+        url('font/프리텐다드/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-3';
+    src: url('font/프리텐다드/Pretendard-Light.eot');
+    src: url('font/프리텐다드/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드/Pretendard-Light.woff2') format('woff2'),
+        url('font/프리텐다드/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-4';
+    src: url('font/프리텐다드/Pretendard-Regular.eot');
+    src: url('font/프리텐다드/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드/Pretendard-Regular.woff2') format('woff2'),
+        url('font/프리텐다드/Pretendard-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-1';
+    src: url('font/프리텐다드/Pretendard-Thin.eot');
+    src: url('font/프리텐다드/Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드/Pretendard-Thin.woff2') format('woff2'),
+        url('font/프리텐다드/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-6';
+    src: url('font/프리텐다드/Pretendard-SemiBold.eot');
+    src: url('font/프리텐다드/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드/Pretendard-SemiBold.woff2') format('woff2'),
+        url('font/프리텐다드/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    line-height: 1;
+    color: #333;
+}
+
+.font {
+    font-size: 40px;
+}
+.font p:first-child {
+    font-family: 'PyeongChangPeace-Bold';
+}
+.font p:nth-child(2) {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font p:nth-child(3) {
+    font-family: 'skybori';
+}
+.font p:nth-child(4) {
+    font-family: 'Super Festival';
+}
+.font_02 {
+    font-size: 80px;
+}
+.font_02 p:nth-child(1){
+    font-family: 'Pretendard-1';
+}
+.font_02 p:nth-child(2){
+    font-family: 'Pretendard-2';
+}
+.font_02 p:nth-child(3){
+    font-family: 'Pretendard-3';
+}
+.font_02 p:nth-child(4){
+    font-family: 'Pretendard-4';
+}
+.font_02 p:nth-child(5){
+    font-family: 'Pretendard-5';
+}
+.font_02 p:nth-child(6){
+    font-family: 'Pretendard-6';
+}
+.font_02 p:nth-child(7){
+    font-family: 'Pretendard-7';
+}
+.font_02 p:nth-child(8){
+    font-family: 'Pretendard-8';
+}
+.font_02 p:nth-child(9){
+    font-family: 'Pretendard-9';
+}

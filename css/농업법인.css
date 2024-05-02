@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Freesentation-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Diphylleia-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_JAMO@1.0/Diphylleia-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+.section-1 {
+    width: 1920px;
+    position: relative;
+    color: #fff;
+}
+
+.section-1 img {
+    width: 100%;
+
+}
+
+.section-1 .item_box {
+    width: 100%;
+    
+    
+}
+.section-1 .item_box .item {
+   
+    
+    
+}
+.section-1 .item_box .item ul {
+    display: flex;
+    width: 50%;
+
+    position: absolute;
+    top: 0;
+    left: 30%;
+    transform: rotateY(0, -50%'angle');
+    justify-content: space-between;
+    color: #fff;
+    margin: 30px;
+    
+
+    
+
+} 
+.section-1 .item_box .item ul li {
+    text-align: center;
+    font-family: 'Freesentation-9Black';
+    
+    font-size: 20px;
+    border: 1px;
+    width: 100px;
+    
+
+    
+}
+.section-1 .item_box .item ul li:hover {
+    transition: 1s;
+    color: #333;
+}
+
+.section-1 .item_box .item h1:hover {
+    transition: 1s;
+    color: #333;
+}
+.section-1 .item_box .item h2:hover {
+    transition: 1s;
+    color: #333;
+}
+.section-1 .item_box .item strong:hover {
+    transition: 1s;
+    color: #333;
+}
+
+.section-1 .item_box .item p:hover{
+    transition: 1s;
+    color: #333;
+}
+
+
+.section-1 .item_box .item h1  {
+
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    color: #fff;
+    text-align: center;
+    font-family: 'JalnanGothic';
+    font-size: 20px;
+
+}
+.section-1 .item_box .item h2 {
+
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    color: #fff;
+    text-align: center;
+    font-family: 'JalnanGothic';
+    font-size: 10px;
+}
+.section-1 .item_box .item strong {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 20%;
+    left: 0;
+    transform: rotateY(-50%);
+    font-size: 60px;
+    color: #fff;
+    
+}
+.section-1 .item_box .item p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 0;
+    transform: rotateY(-50%);
+    font-size: 30px;
+    color: #fff;
+}

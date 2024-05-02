@@ -1,0 +1,39 @@
+@charset "UTF-8"
+
+* {margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    line-height: 1;
+    color: #333;
+}
+.section {
+    width: 1280px;
+    position: relative;
+}
+    .section img {
+        
+        height: 100%;
+        
+    }
+
+.section .header {
+    width: 1034px;
+    height: 63px;
+    
+    padding: 20px 30px;
+    background-color: burlywood;
+    position: absolute;
+    top: 36px;
+    left: 50%;
+    transform: translate(0,-50% );
+    z-index: 9;
+
+}

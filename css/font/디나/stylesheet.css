@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Super Festival';
+    src: url('SuperFestival.eot');
+    src: url('SuperFestival.eot?#iefix') format('embedded-opentype'),
+        url('SuperFestival.woff2') format('woff2'),
+        url('SuperFestival.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,185 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    line-height: 1;
+    color: #333;
+}
+
+section {
+    background-color: #ccc;
+    margin: 50px 0;
+    padding: 50px;
+}
+section div {
+    background-color: yellowgreen;
+    margin-top: 20px;
+}
+section div p {
+    background-color: royalblue;
+    color: white;
+}
+
+/* 수평정렬 */
+.flex_01 div {
+    display: flex;
+    justify-content: center;
+    /* justify-content 수평정렬
+    space-between : 양끝에 붙여서 사이간격 동일하게 적용 
+    space-around : 사이간격의 1/2만큼 양끝에 여백생김
+    space-evenly : 양끝 포함 사이간격 동일하게 여백생김
+    flex-end : 오른쪽에 배치
+    center : 가운데 배치 
+    flex-start(기본값) : 왼쪽에 배치
+    */
+}
+
+
+/* 수직정렬 1줄 */
+.flex_02 div {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: flex-end;
+    /* align-items 수직정렬(1줄) 
+    center : 세로에서 가운데
+    flex-end : 세로 영역의 하단에 맞춰 정렬
+    flex-start : 세로 영역의 상단에 맞춰 정렬
+    */
+
+}
+.flex_02 div p {
+    width: 30%;
+    height: 100px;
+}
+/* p:nth-child(2)
+=> p태그들 중에서 두번째 p태그 선택 */
+.flex_02 div p:nth-child(2) {
+    height: 300px;
+}
+.flex_02 div p:nth-child(3) {
+    height: 200px;
+}
+
+/* 수직정렬 2줄 이상 */
+.flex_03 div {
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap; 
+    /* 공간 부족하면 아이템을 밑으로 
+    배치시켜주는 역할 */
+    justify-content: space-between;
+    align-content:space-around;
+    /* align-content 수직정렬
+    space-between : 세로 양끝에 붙여서 사이간격 동일하게 적용 
+    space-around : 세로 사이간격의 1/2만큼 양끝에 여백생김
+    space-evenly : 세로 양끝 포함 사이간격 동일하게 여백생김
+    flex-end : 아래쪽 배치
+    center : 가운데 배치 
+    flex-start : 상단에 배치
+    */
+
+}
+.flex_03 div p {
+   width: 48%; 
+}
+
+
+/* 아이템 순서 변경 */
+.flex_04 div {
+    display: flex;
+}
+/* first-child 첫번째 
+last-child 마지막
+nth-child(숫자) 순서지정 */
+.flex_04 div p:first-child {
+    order: 2;
+    /*order은 부모에게 display:flex가 있어야지만 사용가능 */
+
+    /* order 순서변경 
+    기본값 0
+    숫자가 클수록 뒤에 배치
+    낮을수록 앞에 배치*/
+
+}
+.flex_04 div p:last-child {
+    order: -1;
+}
+
+/* 세로나열 */
+.flex_05 div {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction : column 세로로배치
+    column-reverse : 역방향으로 세로로 배치
+      */
+    /* flex-direction사용 후에 방향 바뀜
+   justify-content 수직정렬로 변경
+   align-content 수평정렬로 변경  */
+    
+   /* 수직정렬 */
+   justify-content: space-between;
+
+    /* 수평정렬, flex-wrap:wrap함께 사용 */
+   align-content: flex-end; 
+   flex-wrap: wrap;
+}
+
+
+.box {
+    box-sizing: border-box;
+    /* padding과 border를 포함하여
+    가로값, 세로값이 설정됨.
+     */
+
+    width: 400px; 
+    /* 가로 400 + 오른쪽 padding30 + 왼쪽 padding30
+    => 총 width값은 460px  */
+
+    height: 400px;
+    background-color: palevioletred;
+    border-radius: 20px;    
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image_box {
+    width: 400px;
+    height: 400px;
+
+    position: relative;
+}
+.image_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image_box .text_box {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 100%;
+
+    background-color: rgba(255, 255, 255, 0.392);
+    backdrop-filter: blur(5px);
+    padding: 30px;
+    box-sizing: border-box;
+}
